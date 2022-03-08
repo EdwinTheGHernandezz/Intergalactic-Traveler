@@ -7,13 +7,28 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController
+{
 
-    override func viewDidLoad() {
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        // assignbackground()
     }
-
+      
+ //   func assignbackground()
+    {
+        
+      //  let background = UImage(named: "background")
+        
+      //  var imageview : UIImageView!
+        //imageview = UIImageView (frame : view.bounds)
+        //ImageView?.contentMode =
+       // UIView.ContentMode.scaleAspectFill
+     //   imageview.clipsToBounds = true
+        
+    }
 
 }
 
