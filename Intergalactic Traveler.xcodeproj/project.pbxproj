@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A55FF74A27D94D43008246F0 /* StarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55FF74927D94D43008246F0 /* StarViewController.swift */; };
 		A571BE3527D7F8CE005206DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A571BE3427D7F8CE005206DE /* AppDelegate.swift */; };
 		A571BE3727D7F8CE005206DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A571BE3627D7F8CE005206DE /* SceneDelegate.swift */; };
 		A571BE3927D7F8CE005206DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A571BE3827D7F8CE005206DE /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A55FF74927D94D43008246F0 /* StarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarViewController.swift; sourceTree = "<group>"; };
 		A571BE3127D7F8CE005206DE /* Intergalactic Traveler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Intergalactic Traveler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A571BE3427D7F8CE005206DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A571BE3627D7F8CE005206DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				A571BE3627D7F8CE005206DE /* SceneDelegate.swift */,
 				A571BE3827D7F8CE005206DE /* ViewController.swift */,
 				A571BE3A27D7F8CE005206DE /* Main.storyboard */,
+				A55FF74927D94D43008246F0 /* StarViewController.swift */,
 				A571BE3D27D7F8CF005206DE /* Assets.xcassets */,
 				A571BE3F27D7F8CF005206DE /* LaunchScreen.storyboard */,
 				A571BE4227D7F8CF005206DE /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A55FF74A27D94D43008246F0 /* StarViewController.swift in Sources */,
 				A571BE3927D7F8CE005206DE /* ViewController.swift in Sources */,
 				A571BE3527D7F8CE005206DE /* AppDelegate.swift in Sources */,
 				A571BE3727D7F8CE005206DE /* SceneDelegate.swift in Sources */,
