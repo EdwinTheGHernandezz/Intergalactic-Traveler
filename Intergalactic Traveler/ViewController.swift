@@ -14,19 +14,24 @@ class ViewController: UIViewController
     {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        // assignbackground()
+         assignbackground()
     }
       
- //   func assignbackground()
-    {
+   func assignbackground()
+
+
+{
+       let background = UIImage(named: "background")
         
-      //  let background = UImage(named: "background")
-        
-      //  var imageview : UIImageView!
-        //imageview = UIImageView (frame : view.bounds)
-        //ImageView?.contentMode =
-       // UIView.ContentMode.scaleAspectFill
-     //   imageview.clipsToBounds = true
+        var imageview : UIImageView!
+        imageview = UIImageView (frame: view.bounds)
+        imageview.contentMode = UIView.ContentMode.scaleAspectFill
+        imageview.clipsToBounds = true
+         imageview.image = background
+        imageview.center = view.center
+        view.addSubview(imageview)
+        self.view.sendSubviewToBack(imageview)
+
         
     }
 
