@@ -9,11 +9,14 @@ import UIKit
 
 class StarViewController: UIViewController {
     @IBOutlet weak var Pics: UIImageView!
+    
+    
     var starName = ""
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        self.view.backgroundColor = UIColor.black
         
         Pics.image = UIImage(named: starName)
         
